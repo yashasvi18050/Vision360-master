@@ -190,5 +190,5 @@ public class ac1 extends AppCompatActivity implements AdapterView.OnItemSelected
             else
                 services_required=services_required+", Cooling";
         }
-    }
+    }   
 }
