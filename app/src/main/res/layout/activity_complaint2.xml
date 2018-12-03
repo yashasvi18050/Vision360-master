@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".complaint2">
+
+    <Button
+        android:id="@+id/mason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MASON"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/carpenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CARPENTER"
+        android:layout_below="@id/mason"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/electric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRICIAN"
+        android:layout_below="@id/carpenter"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/plumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLUMBER"
+        android:layout_below="@id/electric"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <Button
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AIR CONDITIONER"
+        android:layout_below="@id/plumber"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+
+        />
+</RelativeLayout>

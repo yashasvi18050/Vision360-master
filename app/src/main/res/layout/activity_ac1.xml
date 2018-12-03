@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ac1">
+
+    <CheckBox
+        android:id="@+id/c1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEAKAGE"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+    <CheckBox
+        android:id="@+id/c2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COOLING"
+        android:layout_below="@id/c1"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/dtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/c2"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE DATE"
+        android:textStyle="bold|normal"
+        android:background="#00bfa5"
+        android:layout_below="@+id/dtext"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/time2_arrays"
+        android:prompt="@string/time_prompt"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/submit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:textStyle="bold|normal"
+        android:background="#00bfa5"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="submitupdate"
+        />
+</RelativeLayout>

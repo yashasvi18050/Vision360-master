@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TV1"
+        android:text="User Details:"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="15dp"
+        android:text="Name:"
+        android:layout_below="@id/TV1"
+        android:textStyle="bold"
+        android:id="@+id/Name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/TV2"
+        android:layout_toRightOf="@id/Name"
+        android:layout_below="@id/TV1"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="15dp"
+        android:text="Gender:"
+        android:layout_below="@id/Name"
+        android:id="@+id/Gender"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/TV3"
+        android:layout_toRightOf="@id/Gender"
+        android:layout_below="@id/TV2"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="15dp"
+        android:text="Email_ID:"
+        android:layout_below="@id/Gender"
+        android:id="@+id/Emailid"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:id="@+id/TV4"
+        android:layout_toRightOf="@id/Emailid"
+        android:layout_below="@id/TV3"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="15dp"
+        android:text="Contact-No:"
+        android:layout_below="@id/Emailid"
+        android:id="@+id/Contact"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/TV5"
+        android:layout_toRightOf="@id/Contact"
+        android:layout_below="@id/TV4"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="15dp"
+        android:text="Room-No:"
+        android:layout_below="@id/Contact"
+        android:id="@+id/roomno"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/TV6"
+        android:layout_toRightOf="@id/roomno"
+        android:layout_below="@id/TV5"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TV6"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="90dp"
+        >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:textColor="#FFFFFF"
+        android:background="#00bfa5"
+        android:text="Change password" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Name"
+        android:text="CHANGE CONTACT"
+        android:textColor="#FFFFFF"
+        android:background="#00bfa5"
+        />
+
+    <Button
+
+        android:id="@+id/button3"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Name"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:text="CHANGE ROOM-NO"
+        android:textColor="#FFFFFF"
+        android:background="#00bfa5"
+
+        />
+        </LinearLayout>
+
+</RelativeLayout>

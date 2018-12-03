@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">homepage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="name">Hello, Name</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="viewcontent">No Complaints Yet!!</string>
+    <string name="action_settings">Log Out</string>
+    <string name="profile">Profile</string>
+    <string name="complaint">Complaints</string>
+    <string name="nb">Notice Board</string>
+    <string name="hp">Hostel Payment</string>
+    <string name="up">Utility Page</string>
+    <string name="greeting">Dear Student,</string>
+    <string name="utility_note">We are your FMS team and we are here to take care of you and your hostel requirements</string>
+    <string name="hki">Housekeeping Incharge:</string>
+    <string name="namehki">Navin Kumar</string>
+    <string name="mobNo">Mobile Number</string>
+    <string name="number">+919643209217</string>
+    <string name="helpdesk">Helpdesk</string>
+    <string name="emailhd">admin-facilities@iiitd.ac.in</string>
+    <string name="phone">Phone No</string>
+    <string name="no">420</string>
+    <string name="ps">In case of Non compliance please escalate to arunv@iiitd.ac.in</string>
+    <string name="upload">Upload</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select an Image</string>
+    <string name="tid">Transaction ID</string>
+    <string name="type_of_service">Type Of Service</string>
+    <string name="electric">Electrician</string>
+    <string name="plumbing">Plumbing</string>
+    <string name="carpenter">Carpenter</string>
+    <string name="housekeeping">House Keeping</string>
+    <string name="others">Others</string>
+
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="time_prompt">Choose Available Time</string>
+    <string-array name="time1_arrays">
+        <item>8am-10am</item>
+        <item>10am-12noon</item>
+        <item>12noon-2pm</item>
+        <item>2pm-4pm</item>
+        <item>4pm-5pm</item>
+    </string-array>
+
+    <string-array name="time2_arrays">
+        <item>8am-10am</item>
+        <item>10am-12noon</item>
+        <item>12noon-2pm</item>
+        <item>2pm-4pm</item>
+        <item>4pm-6pm</item>
+        <item>6pm-8pm</item>
+        <item>8pm-10pm</item>
+        <item>10pm-00am</item>
+        <item>00am-2am</item>
+        <item>2am-4am</item>
+        <item>4am-6am</item>
+    </string-array>
+
+    /*Reference:https://www.mkyong.com/android/android-spinner-drop-down-list-example*/
+
+</resources>

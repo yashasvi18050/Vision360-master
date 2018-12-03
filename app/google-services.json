@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "443160695595",
+    "firebase_url": "https://vision360-f6b40.firebaseio.com",
+    "project_id": "vision360-f6b40",
+    "storage_bucket": "vision360-f6b40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443160695595:android:70a4c62a91bf9c34",
+        "android_client_info": {
+          "package_name": "com.example.mca118057.iiitdv360payment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443160695595-a6a828qm6om040vb511b3po48fd2fgq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPBq99sAefnPUzlwABRZc61BTXEoyOyFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443160695595:android:8347a8e4b94fff2d",
+        "android_client_info": {
+          "package_name": "com.example.shubhangi.homepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443160695595-a6a828qm6om040vb511b3po48fd2fgq3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPBq99sAefnPUzlwABRZc61BTXEoyOyFc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
